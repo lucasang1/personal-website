@@ -9,8 +9,8 @@ import spl3 from '../assets/spl3.png';
 import spl4 from '../assets/spl4.png';
 import spl5 from '../assets/spl5.png';
 import spl6 from '../assets/spl6.png';
-import lstm from '../assets/lstm.png';
-import xgboost from '../assets/xgboost.png';
+import lstm from '../assets/LSTM.png';
+import xgboost from '../assets/XGBoost.png';
 
 const projects = [
     {name: 'Credit Card Fraud Detection Model', href: "https://fraud-detection-model-lucasang.streamlit.app/", badge: 'ML', details: 'PostgreSQL • DBeaver • Scikit-Learn • Seaborn • Pandas • NumPy • Streamlit • Python', images: [ml1,ml2,ml3,ml4,ml5], alt: "Project Picture"},
