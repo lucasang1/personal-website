@@ -13,7 +13,7 @@ export default function Intro() {
                 className = "profile-photo"
             />
             <h1 className = "h1-greeting">
-            <span className = "text-dimmed">Hi! I'm Lucas Ang.</span>{' '}A Business Analytics student at NUS. Strong passion for{' '}
+            <span className = "text-dimmed">Hi! I'm Lucas Ang.</span>{' '}A Business Analytics student at NUS, with a strong passion for{' '}
             <span className = "inline-block border-r-2 border-current pr-1"> {dynamic}</span>
             </h1>
             <div className = "cta">
