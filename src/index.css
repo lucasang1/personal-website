@@ -292,6 +292,14 @@ footer {
     margin-top: var(--space-XL);
   }
 
+  .social-icons ul {
+    display: flex;
+    list-style: none;
+    padding: auto;
+    margin-left: 0px;
+    gap: var(--space-L);
+  }  
+
   .grid-container {
     width: 100%;
     grid-template-columns: 1fr;
