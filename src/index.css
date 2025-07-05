@@ -316,6 +316,18 @@ footer {
     margin-left: 0;
     margin-top: var(--space-XXS);
   }
+
+  .carousel {
+    height: 300px;
+    margin-top: var(--space-M);
+    border-radius: 12px;
+  }
+  
+  .carousel-track {
+    gap: var(--space-M);
+    animation: scroll-left 30s linear infinite;
+    min-width: 250%;
+  }
 }
 
 /* Small mobile styles */
@@ -377,5 +389,17 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
+  }
+
+  .carousel {
+    height: 200px;
+    margin-top: var(--space-M);
+    border-radius: 8px;
+  }
+  
+  .carousel-track {
+    gap: var(--space-XS);
+    animation: scroll-left 25s linear infinite;
+    min-width: 300%;
   }
 }
