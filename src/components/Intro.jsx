@@ -1,5 +1,5 @@
 import Typewriter from './Typewriter'
-import headshot from '../assets/headshot.jpeg';
+import headshot from '../assets/headshot.png';
 
 export default function Intro() {
     const dynamic = Typewriter(
