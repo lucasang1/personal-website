@@ -29,7 +29,6 @@ export default function GridShowcase() {
     return (
         <section className = "grid-container">
             {projects.map((p, i) => {
-                const carouselImgs = [...p.images, ...p.images, ...p.images, ...p.images, ...p.images, ...p.images]
 
                 return (
                 <div key = {i} className = "grid-item item-full">
@@ -53,7 +52,7 @@ export default function GridShowcase() {
                     ) : (
                         <div className = 'carousel'>
                             <div className = 'carousel-track'>
-                                {carouselImgs.map((src, j) => (
+                                {[...p.images, ...p.images, ...p.images, ...p.images, ...p.images, ...p.images].map((src, j) => (
                                     <a href = {p.href} className="flex-none" target="_blank">
                                     <img
                                         key = {j}
