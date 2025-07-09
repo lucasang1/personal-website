@@ -46,7 +46,7 @@ export default function GridShowcase() {
                     {p.embed ? (
                         <iframe 
                             src = {p.href}
-                            className = "w-full h-80 border rounded-lg"
+                            className = "w-full h-80 border border-color-text-secondary rounded-lg"
                             title = "Rust WebSocket Echo Chat"
                         />
                     ) : (
