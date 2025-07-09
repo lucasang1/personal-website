@@ -18,7 +18,7 @@ import o4 from '../assets/o4.png';
 import o5 from '../assets/o5.png';
 
 const projects = [
-    {name: 'Rust WebSocket Echo Chat', href: "https://lucas-rust-ws-chat.onrender.com", badge: '?', details: 'Rust • Tokio • WebSocket • HTML • CSS • JavaScript', embed: true},
+    {name: 'Rust WebSocket Echo Chat', href: "https://lucas-rust-ws-chat.onrender.com", badge: 'Rust', details: 'Rust • Tokio • WebSocket • Render • HTML • CSS • JavaScript', embed: true},
     {name: 'Credit Card Fraud Detection Model', href: "https://fraud-detection-model-lucasang.streamlit.app/", badge: 'ML', details: 'PostgreSQL • DBeaver • Scikit-Learn • Seaborn • Pandas • NumPy • Streamlit • Python', images: [ml1,ml2,ml3,ml4,ml5], alt: "Project Picture"},
     {name: 'Statistical Analysis and Performance Visualisation', href: "https://lucasang.notion.site/Finding-the-Best-Forward-in-the-SPL-2024-25-7a8b0315b45d413e8e760d18cb12bf22", badge: 'Data Viz', details: 'Plotly • Matplotlib • Pandas • NumPy • Python', images: [spl1, spl2, spl3, spl4, spl5, spl6], alt: "Project Picture"},
     {name: 'AMZN Stock Price Forecasting', badge: 'ML', details: 'XGBoost • LSTM • Scikit-Learn • TensorFlow • Keras • Statsmodels • Scikit-Learn • Seaborn • Matplotlib • Pandas • NumPy • Jupyter', images: [xgboost, lstm], alt: "Project Picture"},
